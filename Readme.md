@@ -20,7 +20,9 @@ For more info: https://dotnet.microsoft.com/en-us/learn/data/spark-tutorial/inst
 
 You need to add the spark-submit command to program argument in order to run/debug Spark application:
 
->spark-submit --class org.apache.spark.deploy.dotnet.DotnetRunner --master local bin\Debug\netcoreapp3.1\microsoft-spark-3-1_2.12-2.0.0 .jar dotnet bin\Debug\netcoreapp3.1\SparkCSharp.dll
+>dotnet build
+
+>spark-submit --class org.apache.spark.deploy.dotnet.DotnetRunner --master local bin\Debug\netcoreapp3.1\microsoft-spark-3-1_2.12-2.0.0.jar dotnet bin\Debug\netcoreapp3.1\SparkCSharp.dll
 
 ![](jpg/config.jpg)
 
