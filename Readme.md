@@ -16,13 +16,27 @@ There are also options to run Spark application on Spark container
    
 For more info: https://dotnet.microsoft.com/en-us/learn/data/spark-tutorial/install-spark
 
-### Localhost Config
+### Build Config
 
-To build and run Spark app run Spark Submit command or create a new configuration under External Executable as follows:
+To build Spark app run Spark Submit command or create a new configuration under External Executable as follows:
 
->dotnet build
+    dotnet build
+    spark-submit --class org.apache.spark.deploy.dotnet.DotnetRunner --master local bin\Debug\netcoreapp3.1\microsoft-spark-3-1_2.12-2.0.0.jar dotnet bin\Debug\netcoreapp3.1\SparkCSharp.dll
 
->spark-submit --class org.apache.spark.deploy.dotnet.DotnetRunner --master local bin\Debug\netcoreapp3.1\microsoft-spark-3-1_2.12-2.0.0.jar dotnet bin\Debug\netcoreapp3.1\SparkCSharp.dll
+![](jpg/config.jpg)
+
+### Debug Config
+
+To debug Spark app run Spark Submit command or create a new configuration under External Executable as follows:
+
+    set DOTNET_WORKER_DEBUG=1
+    spark-submit --class org.apache.spark.deploy.dotnet.DotnetRunner --master local bin\Debug\netcoreapp3.1\microsoft-spark-3-1_2.12-2.0.0.jar debug
+
+![](jpg/debug.jpg)
+
+### Run Config
+
+To run Spark ap run standard .NET Project configuration file. In order to debug run above 'Debug Config' first, set breakpoint, and then run this 'Run Config':
 
 ![](jpg/config.jpg)
 
