@@ -1,0 +1,12 @@
+﻿version: '3'
+
+services:
+  dotnet-spark:
+    image: 3rdman/dotnet-spark:latest
+    container_name: dotnet-spark
+    hostname: dotnet-spark
+    ports:
+      - 5567:5567
+    volumes:
+      - C:\Users\Denny Imanuel\Documents\TestCode\SparkCSharp\bin\Debug:/dotnet/Debug
+    restart: always
