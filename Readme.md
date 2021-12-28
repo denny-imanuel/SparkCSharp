@@ -18,7 +18,7 @@ For more info: https://dotnet.microsoft.com/en-us/learn/data/spark-tutorial/inst
 
 ### Localhost Config
 
-You need to add the spark-submit command to program argument in order to run/debug Spark application:
+To build and run Spark app run Spark Submit command or create a new configuration under External Executable as follows:
 
 >dotnet build
 
@@ -44,7 +44,11 @@ To build and run Spark on Docker you create Dockerfile config or run Docker buil
 
 ![](jpg/docker.jpg)
 
-    
+### Output Result
+
+If the Spark application is successfully build it should print out result table as follows:
+
+![](jpg/result.jpg)
     
     
 
