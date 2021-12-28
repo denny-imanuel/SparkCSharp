@@ -4,6 +4,6 @@
     <MSBuildAllProjects>$(MSBuildAllProjects);$(MSBuildThisFileFullPath)</MSBuildAllProjects>
   </PropertyGroup>
   <ImportGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
-    <Import Project="$(NuGetPackageRoot)microsoft.spark\1.0.0\build\netstandard2.0\Microsoft.Spark.targets" Condition="Exists('$(NuGetPackageRoot)microsoft.spark\1.0.0\build\netstandard2.0\Microsoft.Spark.targets')" />
+    <Import Project="$(NuGetPackageRoot)microsoft.spark\2.0.0\build\netstandard2.0\Microsoft.Spark.targets" Condition="Exists('$(NuGetPackageRoot)microsoft.spark\2.0.0\build\netstandard2.0\Microsoft.Spark.targets')" />
   </ImportGroup>
 </Project>

@@ -8,13 +8,13 @@
     ".NETCoreApp,Version=v3.1": {
       "SparkCSharp/1.0.0": {
         "dependencies": {
-          "Microsoft.Spark": "1.0.0"
+          "Microsoft.Spark": "2.0.0"
         },
         "runtime": {
           "SparkCSharp.dll": {}
         }
       },
-      "Apache.Arrow/0.15.1": {
+      "Apache.Arrow/2.0.0": {
         "dependencies": {
           "System.Buffers": "4.5.0",
           "System.Memory": "4.5.2",
@@ -23,15 +23,15 @@
         },
         "runtime": {
           "lib/netcoreapp2.1/Apache.Arrow.dll": {
-            "assemblyVersion": "0.15.1.0",
-            "fileVersion": "0.15.1.0"
+            "assemblyVersion": "2.0.0.0",
+            "fileVersion": "2.0.0.0"
           }
         }
       },
       "Microsoft.CSharp/4.5.0": {},
       "Microsoft.Data.Analysis/0.4.0": {
         "dependencies": {
-          "Apache.Arrow": "0.15.1",
+          "Apache.Arrow": "2.0.0",
           "Microsoft.ML.DataView": "1.0.0",
           "System.Buffers": "4.5.0",
           "System.Memory": "4.5.2",
@@ -58,9 +58,9 @@
       },
       "Microsoft.NETCore.Platforms/1.1.0": {},
       "Microsoft.NETCore.Targets/1.1.0": {},
-      "Microsoft.Spark/1.0.0": {
+      "Microsoft.Spark/2.0.0": {
         "dependencies": {
-          "Apache.Arrow": "0.15.1",
+          "Apache.Arrow": "2.0.0",
           "Microsoft.CSharp": "4.5.0",
           "Microsoft.Data.Analysis": "0.4.0",
           "Newtonsoft.Json": "11.0.2",
@@ -69,8 +69,8 @@
         },
         "runtime": {
           "lib/netstandard2.1/Microsoft.Spark.dll": {
-            "assemblyVersion": "1.0.0.0",
-            "fileVersion": "1.0.20.51311"
+            "assemblyVersion": "2.0.0.0",
+            "fileVersion": "2.0.21.31302"
           }
         }
       },
@@ -127,12 +127,12 @@
       "serviceable": false,
       "sha512": ""
     },
-    "Apache.Arrow/0.15.1": {
+    "Apache.Arrow/2.0.0": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-GUtoD8wOI5nhZ4ALBIwwo295nlrDFhmiao76ocxkDJ8ovobDwXf6YOUXKQmEGWsXcQYl4oXC9MquJSCMMj4ERA==",
-      "path": "apache.arrow/0.15.1",
-      "hashPath": "apache.arrow.0.15.1.nupkg.sha512"
+      "sha512": "sha512-VR+F7g41WMJhr7WoZwwp05OrbYgM5Kmj3FwFXv1g0GgAYhEoCJz3L3qpllUWq9+X/rFKkFRZ2B8XcmsbaqGhrw==",
+      "path": "apache.arrow/2.0.0",
+      "hashPath": "apache.arrow.2.0.0.nupkg.sha512"
     },
     "Microsoft.CSharp/4.5.0": {
       "type": "package",
@@ -169,12 +169,12 @@
       "path": "microsoft.netcore.targets/1.1.0",
       "hashPath": "microsoft.netcore.targets.1.1.0.nupkg.sha512"
     },
-    "Microsoft.Spark/1.0.0": {
+    "Microsoft.Spark/2.0.0": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-xNX1syzWPWMnUAFpFwGvCLBKldeU+Sugm0324BW21Vhf/EVYXXyHLRqYBV2dJ43X6Eqej7gSzfyrCtjv+KKm1g==",
-      "path": "microsoft.spark/1.0.0",
-      "hashPath": "microsoft.spark.1.0.0.nupkg.sha512"
+      "sha512": "sha512-UsYBNq/A9nkcEAgAUShgefM3QFQAB57PP7Njx3X+dZtBths2mNLLnpJ3BLqktT7XoaXfNxoDG1dCICCkKV+IWQ==",
+      "path": "microsoft.spark/2.0.0",
+      "hashPath": "microsoft.spark.2.0.0.nupkg.sha512"
     },
     "Newtonsoft.Json/11.0.2": {
       "type": "package",

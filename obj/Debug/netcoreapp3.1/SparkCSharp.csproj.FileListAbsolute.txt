@@ -1,6 +1,3 @@
-C:\Users\Denny Imanuel\Documents\TestCode\SparkCSharp\bin\Debug\netcoreapp3.1\microsoft-spark-2-3_2.11-1.0.0.jar
-C:\Users\Denny Imanuel\Documents\TestCode\SparkCSharp\bin\Debug\netcoreapp3.1\microsoft-spark-2-4_2.11-1.0.0.jar
-C:\Users\Denny Imanuel\Documents\TestCode\SparkCSharp\bin\Debug\netcoreapp3.1\microsoft-spark-3-0_2.12-1.0.0.jar
 C:\Users\Denny Imanuel\Documents\TestCode\SparkCSharp\bin\Debug\netcoreapp3.1\SparkCSharp.exe
 C:\Users\Denny Imanuel\Documents\TestCode\SparkCSharp\bin\Debug\netcoreapp3.1\SparkCSharp.deps.json
 C:\Users\Denny Imanuel\Documents\TestCode\SparkCSharp\bin\Debug\netcoreapp3.1\SparkCSharp.runtimeconfig.json
@@ -23,3 +20,6 @@ C:\Users\Denny Imanuel\Documents\TestCode\SparkCSharp\obj\Debug\netcoreapp3.1\Sp
 C:\Users\Denny Imanuel\Documents\TestCode\SparkCSharp\obj\Debug\netcoreapp3.1\SparkCSharp.dll
 C:\Users\Denny Imanuel\Documents\TestCode\SparkCSharp\obj\Debug\netcoreapp3.1\SparkCSharp.pdb
 C:\Users\Denny Imanuel\Documents\TestCode\SparkCSharp\obj\Debug\netcoreapp3.1\SparkCSharp.genruntimeconfig.cache
+C:\Users\Denny Imanuel\Documents\TestCode\SparkCSharp\bin\Debug\netcoreapp3.1\microsoft-spark-2-4_2.11-2.0.0.jar
+C:\Users\Denny Imanuel\Documents\TestCode\SparkCSharp\bin\Debug\netcoreapp3.1\microsoft-spark-3-0_2.12-2.0.0.jar
+C:\Users\Denny Imanuel\Documents\TestCode\SparkCSharp\bin\Debug\netcoreapp3.1\microsoft-spark-3-1_2.12-2.0.0.jar

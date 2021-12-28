@@ -2,11 +2,9 @@
 
 services:
   dotnet-spark:
-    image: 3rdman/dotnet-spark:latest
+    build: .
     container_name: dotnet-spark
     hostname: dotnet-spark
     ports:
-      - 5567:5567
-    volumes:
-      - C:\Users\Denny Imanuel\Documents\TestCode\SparkCSharp\bin\Debug:/dotnet/Debug
-    restart: always
+      - 8080:8080
+      - 8081:8081

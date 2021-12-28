@@ -2,7 +2,7 @@
   "version": 3,
   "targets": {
     ".NETCoreApp,Version=v3.1": {
-      "Apache.Arrow/0.15.1": {
+      "Apache.Arrow/2.0.0": {
         "type": "package",
         "dependencies": {
           "System.Buffers": "4.5.0",
@@ -73,10 +73,10 @@
           "lib/netstandard1.0/_._": {}
         }
       },
-      "Microsoft.Spark/1.0.0": {
+      "Microsoft.Spark/2.0.0": {
         "type": "package",
         "dependencies": {
-          "Apache.Arrow": "0.15.1",
+          "Apache.Arrow": "2.0.0",
           "Microsoft.CSharp": "4.5.0",
           "Microsoft.Data.Analysis": "0.4.0",
           "Newtonsoft.Json": "11.0.2",
@@ -184,15 +184,15 @@
     }
   },
   "libraries": {
-    "Apache.Arrow/0.15.1": {
-      "sha512": "GUtoD8wOI5nhZ4ALBIwwo295nlrDFhmiao76ocxkDJ8ovobDwXf6YOUXKQmEGWsXcQYl4oXC9MquJSCMMj4ERA==",
+    "Apache.Arrow/2.0.0": {
+      "sha512": "VR+F7g41WMJhr7WoZwwp05OrbYgM5Kmj3FwFXv1g0GgAYhEoCJz3L3qpllUWq9+X/rFKkFRZ2B8XcmsbaqGhrw==",
       "type": "package",
-      "path": "apache.arrow/0.15.1",
+      "path": "apache.arrow/2.0.0",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "LICENSE.txt",
-        "apache.arrow.0.15.1.nupkg.sha512",
+        "apache.arrow.2.0.0.nupkg.sha512",
         "apache.arrow.nuspec",
         "lib/netcoreapp2.1/Apache.Arrow.dll",
         "lib/netstandard1.3/Apache.Arrow.dll"
@@ -326,10 +326,10 @@
         "runtime.json"
       ]
     },
-    "Microsoft.Spark/1.0.0": {
-      "sha512": "xNX1syzWPWMnUAFpFwGvCLBKldeU+Sugm0324BW21Vhf/EVYXXyHLRqYBV2dJ43X6Eqej7gSzfyrCtjv+KKm1g==",
+    "Microsoft.Spark/2.0.0": {
+      "sha512": "UsYBNq/A9nkcEAgAUShgefM3QFQAB57PP7Njx3X+dZtBths2mNLLnpJ3BLqktT7XoaXfNxoDG1dCICCkKV+IWQ==",
       "type": "package",
-      "path": "microsoft.spark/1.0.0",
+      "path": "microsoft.spark/2.0.0",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -337,14 +337,14 @@
         "LICENSE",
         "THIRD-PARTY-NOTICES.TXT",
         "build/netstandard2.0/Microsoft.Spark.targets",
-        "jars/microsoft-spark-2-3_2.11-1.0.0.jar",
-        "jars/microsoft-spark-2-4_2.11-1.0.0.jar",
-        "jars/microsoft-spark-3-0_2.12-1.0.0.jar",
+        "jars/microsoft-spark-2-4_2.11-2.0.0.jar",
+        "jars/microsoft-spark-3-0_2.12-2.0.0.jar",
+        "jars/microsoft-spark-3-1_2.12-2.0.0.jar",
         "lib/netstandard2.0/Microsoft.Spark.dll",
         "lib/netstandard2.0/Microsoft.Spark.xml",
         "lib/netstandard2.1/Microsoft.Spark.dll",
         "lib/netstandard2.1/Microsoft.Spark.xml",
-        "microsoft.spark.1.0.0.nupkg.sha512",
+        "microsoft.spark.2.0.0.nupkg.sha512",
         "microsoft.spark.nuspec"
       ]
     },
@@ -673,7 +673,7 @@
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v3.1": [
-      "Microsoft.Spark >= 1.0.0"
+      "Microsoft.Spark >= 2.0.0"
     ]
   },
   "packageFolders": {
@@ -721,7 +721,7 @@
         "dependencies": {
           "Microsoft.Spark": {
             "target": "Package",
-            "version": "[1.0.0, )"
+            "version": "[2.0.0, )"
           }
         },
         "imports": [
