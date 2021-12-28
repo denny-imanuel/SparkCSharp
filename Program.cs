@@ -10,7 +10,7 @@ namespace SparkCSharp
             // create spark session
             SparkSession spark = SparkSession
                 .Builder()
-                .AppName("word_count_sample")
+                .AppName("SparkCSharp")
                 .GetOrCreate();
             
             // create initial dataframe
@@ -19,8 +19,7 @@ namespace SparkCSharp
             // count words
             DataFrame words = dataFrame
                 .Select(Functions.Split(Functions.Col("value"), " ").Alias("words"))
-                .Select(Functions.Explode(Functions.Col("words"))
-                    .Alias("word"))
+                .Select(Functions.Explode(Functions.Col("words")).Alias("word"))
                 .GroupBy("word")
                 .Count()
                 .OrderBy(Functions.Col("count").Desc());
